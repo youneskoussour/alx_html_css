@@ -1,0 +1,606 @@
+body
+{
+/* border: 3px solid black; */
+height: 100vh;
+padding: 10px;
+}
+header   
+{
+    border: 2px solid black;
+    height: 70px;
+    padding: 5px;
+}   
+header div
+{
+    border: 1px solid black;
+    /* height: inherit; */
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+} 
+header div div 
+{
+    border: 1px solid black;
+    width: 250px;
+    border-radius: 5px;
+}
+header div div a 
+{
+    border: 1px solid green;
+    width: inherit;
+    display:flex ;
+    justify-content: center;
+}
+.company-logo
+{
+    border: 1px solid red;
+    width: 250px;
+    border-radius: 5px;
+}
+.company-logo a
+{
+border: 1px solid green;
+width: inherit;
+display: flex;
+justify-content: center;
+}
+
+#nav-links
+{
+    width: 400px;
+    padding: 3px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+#nav-links a
+{
+    border: 1px solid red;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main
+{
+    border: 2px solid black;
+    height: initial;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+main section
+{
+   border: 1px solid black; 
+   padding: 20px; 
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+#hero-section div
+{
+    border: 1px solid black;
+    width: 10%; 
+    padding: 0;
+    height: 110px;
+}
+
+#hero-section div h1 
+{
+    border: 1px solid blue;
+    margin: 10px;
+    
+    justify-content: center;
+    display: flex;
+}
+#hero-section div button
+{
+    border: 1px solid orange;
+    justify-content: center;
+    margin: 10px;
+    display: flex;
+    width: 125px;
+}
+#hero-section div p 
+{
+    border: 1px solid purple;
+    margin: 10px;
+    justify-content: center;
+    display: flex;
+}
+
+
+ #hero-section .company-section
+{
+    border: 1px solid rgb(0, 0, 0);
+    width: 800px;
+    height: 250px;
+    padding: 10px;
+    margin-top: 10px;
+}
+ h2 
+{
+    border: 1px solid blue;
+    margin: 10px;
+    width: 16%;
+    margin-inline: auto;
+    justify-content: center;
+    display: flex;
+}
+
+#hero-section .company-section #second-div
+{
+    border: 1px solid black;
+    width: 780px; 
+    padding: 0px;
+    height: 200px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+    
+    margin: 10px;
+    
+}
+
+#second-div #tirth-div
+{
+    flex-wrap: wrap;
+    /* border: 1px solid black;
+    width: 100px; 
+    padding: 10px;
+    height: 10px;
+    ;*/
+    margin: auto;
+    padding: 10px;
+    border: 1px solid black;
+    width: auto;    
+    text-align: center;
+    justify-content: center
+} 
+#tirth-div h3
+{
+    border: 1px solid blue;
+    height: 25px;
+    justify-content: center;
+    display: flex;
+}
+img{
+    border: 1px solid green;
+    justify-content: center;
+    display: flex;
+    width: inherit;
+    height: 25px;
+}
+#tirth-div #second-p
+{
+    border: 1px solid purple;
+    margin: 0px;
+    justify-content: center;
+    display: flex;
+    height: 25px;
+}
+
+main #power-section 
+{
+    margin-top: 10px;
+}
+
+#power-section div
+{
+    border: 1px solid black;
+    width: 25%; 
+    padding: 0;
+    height: 135px;
+}
+
+#power-section div div
+{
+    border: 1px solid black;
+    width: 45%;
+    padding: 0px;
+    height: 115px;
+    margin-left: 185px;
+    margin-top: -60px;
+}
+#power-section div h1
+{
+    border: 1px solid green;
+    margin-inline: 185px;
+    margin-left: 10px;
+    justify-content: center;
+    display: flex;
+}
+#power-section div div a
+{
+    border: 1px solid rgb(213, 38, 190);
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    padding: 3px;
+}
+
+#power-section div div span
+{
+    border: 1px solid darkmagenta;
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+    padding: 3px;
+}
+
+main #crazy-section
+{
+    margin-top: 10px;
+}
+#crazy-section h1
+{
+    border: 1px solid blue;
+    margin: 10px;
+    width: 16%;
+    margin-inline: auto;
+    justify-content: center;
+    display: flex;
+}
+ 
+#crazy-section div
+{
+    border: 1px solid black;
+    width: 800px;
+    padding: 0;
+    height: 300px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#crazy-section div #first-div
+{
+    border: 1px solid black;
+    width: 23%;
+    padding: 0px;
+    height: 280px;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+#crazy-section div #first-div #first-a
+{
+    border: 1px solid green;
+    justify-content: center;
+    display: flex;
+    width: inherit;
+    height: 25px;
+    width: -webkit-fill-available;
+    margin: inherit;
+    margin-right: 5px;
+}
+#crazy-section div #first-div #first-h
+{
+    border: 1px solid blue;
+    height: 25px;
+    justify-content: center;
+    display: flex;
+    width: -webkit-fill-available;
+    margin: inherit;
+    margin-right: 5px;
+}
+
+#crazy-section div #first-div #first-p
+{
+    border: 1px solid purple;
+    margin: inherit;
+    justify-content: center;
+    display: flex;
+    height: 25px;
+    width: -webkit-fill-available;
+    margin-right: 5px;
+}
+#crazy-section div #first-div #div-two
+{
+    border: 1px solid black;
+    justify-content: center;
+    display: flex;
+    width: inherit;
+    height: 19%;
+    width: 100%;
+    margin: inherit;
+    margin-right: 5px;
+}
+#crazy-section div #first-div #div-two #second-a
+{
+    border: 1px solid green;
+    height: 25px;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    margin: inherit;
+    margin-right: 100px;
+}
+#crazy-section div #first-div #div-two #second-h
+{
+    border: 1px solid blue;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    height: 25px;
+    width: auto;
+    margin-right: 5px;
+    margin-top: -35px;
+}
+#crazy-section div #first-div #div-two #div-tree
+{
+    border: 1px solid black;
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    height: 35px;
+    margin: 5px;
+    padding: 2px;
+    margin-right: 65px;
+}
+
+#crazy-section div #first-div #div-two #div-tree #second-p
+{
+    border: 1px solid green;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    height: 32px;
+    width: auto;
+    margin-right: 10px;
+    margin-top: 1px;
+}
+
+#third-p
+{
+    border: 1px solid purple;
+    margin: auto;
+    justify-content: center;
+    display: flex;
+    height: 25px;
+    width: auto;
+    margin-right: 5px;
+    margin-top: -40px;
+}
+
+
+main #good-section
+{
+    margin-top: 10px;
+}
+
+#good-section h1
+{
+    border: 1px solid blue;
+    margin: 10px;
+    width: 16%;
+    margin-inline: auto;
+    justify-content: center;
+    display: flex;
+}
+ 
+#good-section div
+{
+    border: 1px solid black;
+    width: 800px;
+    padding: 0;
+    height: 180px;
+    justify-content: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#good-section div div
+{
+    border: 1px solid black;
+    width: 23%;
+    padding: 0px;
+    height: 150px;
+    margin-left: 6px;
+    margin-top: 10px;
+}
+
+#good-section div div a
+{
+    border: 1px solid green;
+    justify-content: center;
+    display: flex;
+    width: inherit;
+    height: 25px;
+    width: -webkit-fill-available;
+    margin: inherit;
+    margin-right: 5px;
+}
+
+#good-section div div h2
+{
+    border: 1px solid blue;
+    height: 25px;
+    justify-content: center;
+    display: flex;
+    width: -webkit-fill-available;
+    margin: inherit;
+    margin-right: 5px;
+}
+
+#good-section div div p
+{
+    border: 1px solid purple;
+    margin: inherit;
+    justify-content: center;
+    display: flex;
+    height: 25px;
+    width: -webkit-fill-available;
+    margin-right: 5px;
+}
+#good-section span
+{
+    border: 1px solid orange;
+    justify-content: center;
+    margin: 10px;
+    display: flex;
+    width: 16%;
+}
+
+main #faq-section
+{
+    margin-top: 10px;
+}
+#faq-section h1
+{
+    border: 1px solid blue;
+    margin: 10px;
+    width: 16%;
+    margin-inline: auto;
+    justify-content: center;
+    display: flex;
+}
+#faq-section div
+{
+    border: 1px solid black;
+    width: 500px;
+    padding: 0;
+    height: 300px;
+    justify-content: center;
+    
+    
+}
+#faq-section div div 
+{
+    border: 1px solid black;
+    width: 97%;
+    padding: 0px;
+    height: 135px;
+    margin-left: 6px;
+    margin-top: 10px;
+    display: flex;
+}
+#faq-section div div #first-div
+{
+    border: 1px solid black;
+    width: 47%;
+    padding: 0px;
+    height: 115px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    display: block;
+}
+
+#faq-section div div #second-div
+{
+    border: 1px solid black;
+    width: 47%;
+    padding: 0px;
+    height: 115px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    display: block;
+}
+#faq-section div div #first-div #first-a
+{
+    border: 1px solid blue;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    width: -webkit-fill-available;
+    margin: inherit;
+    margin-right: 5px;
+}
+#faq-section div div #first-div #first-p
+{
+    border: 1px solid purple;
+    margin: inherit;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: -webkit-fill-available;
+    margin-right: 5px;
+}
+
+#faq-section div div #second-div #second-a
+{
+    border: 1px solid blue;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    width: -webkit-fill-available;
+    margin: inherit;
+    margin-right: 5px;
+}
+
+#faq-section div div #second-div #second-p
+{
+    border: 1px solid purple;
+    margin: inherit;
+    justify-content: center;
+    display: flex;
+    height: 40px;
+    width: -webkit-fill-available;
+    margin-right: 5px;
+}
+
+.last-class
+{
+    width: 140px;
+    padding: 3px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.last-class a
+{
+    border: 1px solid green;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer
+{
+    border: 2px solid black;
+    height: initial;
+    padding: 5px;
+    margin-top: 10px;
+}
+footer div
+{
+    border: 1px solid black;
+     height: initial; 
+    display: flex;
+    padding: 3px;
+    justify-content: space-between;
+} 
+#last-div
+{
+  
+    border: 1px solid red;
+    width: 250px;
+    margin: 2px;
+    
+}
+#last-div a
+{
+   
+    border: 1px solid green;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    padding: inherit;
+    margin: 1px;
+}
+footer p
+{
+    border: 1px solid purple;
+    margin: inherit;
+    justify-content: center;
+    display: flex;
+    height: 30px;
+    width: 10%;
+    margin-left: 40%;
+}
+
