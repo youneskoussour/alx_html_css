@@ -1,7 +1,6 @@
-
-
 :root {
   --color-primary: #FF6565;
+  --color-secondary: #071629;
   --color-black:  #090909;
   --color-white: #FFFFFF;
   --color-grey: #a0a0a0;
@@ -16,7 +15,8 @@
   --font-size-medium: 1.6rem;
   --font-size-large: 1.8rem;
   --font-size-x-large: 2.3rem;
-  --font-size-xx-large: 4.8rem;
+  --font-size-xx-large: 3.4rem;
+  --font-size-xxx-large: 4.8rem;
 
   --font-weight-regular: 400;
   --font-weight-bold: 700;
@@ -89,6 +89,12 @@ section {
  flex-direction: column;
  align-items: center;
  padding: 125px 100px;
+}
+
+section .title {
+ font-weight: var(--font-weight-bold);
+ font-size: var(--font-size-xx-large);
+ margin-bottom: 50px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -240,12 +246,12 @@ header nav li a:hover {
  color: var(--color-primary);
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
  header {
     flex-wrap: wrap;
     justify-content: center;
  }
- 
+
  header nav {
     display: none;
     flex-direction: column;
@@ -291,4 +297,47 @@ header nav li a:hover {
 .hero .button {
  box-shadow: 5px 1px 15px 2px rgba(0, 0, 0, 0.57);
  margin-bottom: 5rem;
+}
+
+/* whatwedo */
+
+.whatwedo {
+ background: var(--color-white);
+ color: var(--color-secondary);
+}
+
+.whatwedo.columns {
+ display: flex;
+}
+
+.whatwedo .columns li {
+ padding: 0 50px;
+}
+
+.whatwedo .columns li i {
+ font-size: var(--font-size-xxx-large);
+ color: var(--color-primary);
+}
+
+@media screen and (max-width: 768px) {
+ .whatwedo .columns {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+ }
+
+ .whatwedo .columns li {
+    width: 50%;
+ }
+}
+
+@media screen and (max-width: 575px) {
+ .whatwedo .columns {
+    flex-direction: column;
+    padding: 0;
+ }
+
+ .whatwedo .columns li {
+    width: auto;
+ }
 }
