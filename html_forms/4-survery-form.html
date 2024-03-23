@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>FORMS</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+        form {
+            max-width: 400px;
+            margin: 0 auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+            list-style-type: none;
+        }
+        input[type="text"],
+        input[type="email"]{
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+        }
+        input[type="time"],
+        input[type="date"],
+        input[type="submit"],
+        select {
+            width: calc(100% - 22px); /* Adjusting width to accommodate padding and borders */
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box;
+            font-size: 16px;
+        }
+    </style>    
+    <script>
+        function validateForm() {
+            var meetingTime = document.getElementById("meeting_time").value;
+            var meetingDate = document.getElementById("meeting_date").value;
+
+            if (meetingTime === "00:00") {
+                alert("Please select a valid meeting time.");
+                return false;
+            }
+
+            return true;
+        }
+    </script>
+</head>
+    <body>
+        <form action="action_page.php" style="border:1px solid #ccc">
+            <div class="container">
+            <h1>Subscription</h1>
+            <hr>
+            
+            <label for="Name"><b>Name</b></label>
+            <input type="text" placeholder="" name="Name" required>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="" name="email" required>
+            <label for="Colours">Favourite colour:</label>
+            <select id="" name="Favourit colour">
+                <option value="Red">Red</option>
+                <option value="Blue">Blue</option>
+                <option value="Green">Green</option>
+            </select>
+            <label for="meeting_time"><b>Time:</b></label>
+            <input type="time" id="meeting_time" name="meeting_time" value="00:00" required>
+            <label for="meeting_date"><b>Date:</b></label>
+            <input type="date" id="meeting_date" name="meeting_date" required>
+            
+            <div class="clearfix">
+                <input type="submit" value="submit">
+            </div>
+            </div>
+        </form>
+    </body>
